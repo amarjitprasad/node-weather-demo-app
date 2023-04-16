@@ -1,6 +1,5 @@
 const weatherForm = document.querySelector('form');
 const searchElm = document.querySelector('input');
-
 weatherForm.addEventListener('click', (e)=>{
     e.preventDefault();
     const location = searchElm.value ;
